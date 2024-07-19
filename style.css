@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.S{
+    width: 800px;
+    margin: 0 auto;
+    padding: 124px 0;
+}
+.H{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+.H h1 span:first-child,
+.H h1 span:last-child{
+    font-size: 44px;
+    font-weight: 100;
+}
+.H h1 span{
+    font-size: 80px;
+    color: black;
+}
+.navbar{
+    padding: 15px 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 80px;
+}
+.navbar ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+}
+.navbar ul li a:hover{
+    color: rgb(4, 226, 255);
+}
+#active{
+    color: rgb(255, 0, 0);
+}
+.img{
+    margin: 10px 0;
+    text-align: center;
+}
+.img img{
+    width:  266px;
+}
+margin-r{
+    margin-right: -10px;
+}
+margin-l{
+    margin-left: -10px;
+}
+.p{
+    text-align: center;
+}
+.ending{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
